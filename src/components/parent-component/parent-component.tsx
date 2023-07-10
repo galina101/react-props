@@ -38,11 +38,11 @@ const ParentComponent: React.FC = () => {
 
                 <p>Here are two examples of props being passed to children FUNCTTION components:</p>
 
-                <FunctionChildComponent myBoolProp={true} myStringProp={"Function Child Data 1"}></FunctionChildComponent>
-                <FunctionChildComponent myBoolProp={false} myStringProp={"Function Child Data 2"}></FunctionChildComponent>
+                <FunctionChildComponent myNumProp={5} myStringProp={"Function Child Data 1"}></FunctionChildComponent>
+                <FunctionChildComponent myNumProp={10} myStringProp={"Function Child Data 2"}></FunctionChildComponent>
 
                 <div className="todo-container">
-                    <p>TODO: render the child FUNCTION component a third time with new values for the prop's attributes. Make the boolean true and the string "Function Child Data 33".</p>
+                    <p>TODO: render the child FUNCTION component a third time with new values for the prop's attributes. Make the number 1 and the string "Function Child Data 33".</p>
                     {/* CODE HERE */}
                 </div>
             </div>

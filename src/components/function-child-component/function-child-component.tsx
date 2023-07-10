@@ -4,7 +4,7 @@ import React from 'react';
 /* This TypeScript interface allows us to model the props' attributes to enforce compile time safety. The attributes
 of a prop can be any combination of datatypes. Here is an example below.*/
 interface MyProps {
-    myBoolProp: boolean;
+    myNumProp: number;
     myStringProp: string;
 }
 
@@ -20,8 +20,8 @@ const FunctionChildComponent: React.FC<MyProps> = (props: MyProps) => {
             <p>Here is the "myStringProp" prop data: {props.myStringProp}</p>
 
             <div className="todo-container">
-                {/* TODO: alter the text below so that it properly displays the "myBoolProp" data, similar to the text above. */}
-                <p>Here is the "myBoolProp" prop data: TODO(ALTER THIS TEXT)</p>
+                {/* TODO: alter the text below so that it properly displays the "myNumProp" data, similar to the text above. */}
+                <p>Here is the "myNumProp" prop data: (TODO replace me in function-child-component)</p>
             </div>
 
         </React.Fragment>
