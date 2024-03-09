@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.section-container1    {
+  background-color: rgba(178, 198, 237, 0.8);
+}
+
+.section-container2    {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+.todo-container-class{
+  background-color: lightgoldenrodyellow;
+}
